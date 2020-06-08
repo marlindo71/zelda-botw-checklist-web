@@ -81,11 +81,11 @@ input[type=checkbox]:checked::after {
 /*
   margin-top: 10px;
   margin-bottom: 10px;
-  line-height: 20px;
 */
+  line-height: 15px;
 }
 .custom-checkbox label {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .custom-checkbox span {
