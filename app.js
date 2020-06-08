@@ -176,3 +176,34 @@ list.addEventListener('click', e => {
         
 }
 }, false)
+
+list.addEventListener('touchstart', e => {
+    
+    let el = e.target
+    // walk up the tree until we find a LI item
+    while (el && !el.classList.contains('li-items')) {
+        el = el.parentNode
+    }
+    
+    console.log(e.target.tagName)
+    if((e.target.tagName == 'INPUT' && el.classList.contains('li-checked') == e.target.checked) || e.target.tagName == 'SPAN'){
+        
+    } else {
+        
+    
+       
+    if(el.classList.contains('li-unchecked')){
+        el.classList.remove('li-unchecked')
+        el.classList.add('li-checked')
+    }else {
+        el.classList.remove('li-checked')
+        el.classList.add('li-unchecked')        
+    }
+
+    if(e.target.tagName !== 'INPUT'){
+        el.querySelector('input').click()
+    }
+        
+        
+}
+}, false)
