@@ -68,14 +68,27 @@ const generateGroupHeader = region => {
 
 const generateLi = item => {
   
-    let template = `
+//    let template = `
+//            <li class="list-group-item d-flex li-unchecked li-items p-0">
+//                <div class="px-1 li-div-btn">
+//                    <input class="li-input.btn" type="checkbox" id="todo" name="todo" value="todo">
+//                </div>
+//                <span class="pl-1 pr-1">${item}</span>
+//            </li>
+//    `;
+
+        let template = `
             <li class="list-group-item d-flex li-unchecked li-items p-0">
-                <div class="px-1 li-div-btn">
-                    <input class="li-input.btn" type="checkbox" id="todo" name="todo" value="todo">
+                <div class="li-div-btn">
+                       <label class="custom-checkbox">
+      <input type="checkbox" value="checkbox1">
+      <span></span>
+    </label>
                 </div>
                 <span class="pl-1 pr-1">${item}</span>
             </li>
     `;
+    
     
     return template;
     
