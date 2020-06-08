@@ -36,14 +36,17 @@ input[type=checkbox] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  -webkit-border-radius:0;
   font-size: inherit;
   width: 1em;
   margin: 0;
   color: #981f1f;
   outline: none;
   font-family: 'Font Awesome 5 Pro';
+/*
   -webkit-transition: 300ms ease-out;
   transition: 300ms ease-out;
+*/
 }
 input[type=checkbox]::after {
   content: '\f0c8';
@@ -52,14 +55,16 @@ input[type=checkbox]::after {
   width: 1em;
 }
 input[type=checkbox]:checked::after {
-  font-weight: 900;
+/*  font-weight: 900;*/
 }
 input[type=checkbox]:active {
+/*
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
+*/
 }
 input[type=checkbox] + span {
-  margin-left: .35em;
+/*  margin-left: .35em;*/
 }
 
 input[type=checkbox]:checked::after {
