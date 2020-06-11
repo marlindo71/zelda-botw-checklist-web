@@ -18,18 +18,18 @@
         <header class="text-center text-light my-4">
             <h1 class="mb-4">Zelda Checklist</h1>
         
-        <div class="btn-group btn-group-toggle header-buttons" data-toggle="buttons">
-  <label class="btn btn-light btn-outline-dark" id="Main_Quest">
-    <input type="radio" name="options"> Main Quest
-  </label>
-  <label class="btn btn-light btn-outline-dark active" id="Side_Quest">
-    <input type="radio" name="options" > Side Quest
-  </label>
-  <label class="btn btn-light btn-outline-dark" id="Shrine_Quest">
-    <input type="radio" name="options"> Shrine Quest
-  </label>
-</div>
-       
+            <div class="btn-group btn-group-toggle header-buttons" data-toggle="buttons">
+              <label class="btn btn-secondary" id="Main_Quest">
+                <input type="radio" name="options"> Main Quest
+              </label>
+              <label class="btn btn-secondary active" id="Side_Quest">
+                <input type="radio" name="options" > Side Quest
+              </label>
+              <label class="btn btn-secondary" id="Shrine_Quest">
+                <input type="radio" name="options"> Shrine Quest
+              </label>
+            </div>
+            <button type="button" class="btn btn-light m-1" onclick="document.getElementById('file-load').click()">Browse game_data.sav</button>
         </header>
         <div class="card-columns todoss">
             
@@ -95,6 +95,8 @@
         </div>
 
     </div>
+                <input type="file" class="d-none" id="file-load">
+
 
     <script src="app.js"></script>
 </body>
