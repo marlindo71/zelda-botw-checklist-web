@@ -21,19 +21,18 @@ const generateGroupHeader = region => {
     
 };
 
-const generateLi = item => {
-  
-//    let template = `
-//            <li class="list-group-item d-flex li-unchecked li-items p-0">
-//                <div class="px-1 li-div-btn">
-//                    <input class="li-input.btn" type="checkbox" id="todo" name="todo" value="todo">
-//                </div>
-//                <span class="pl-1 pr-1">${item}</span>
-//            </li>
-//    `;
-
+const generateLi = (item, item_id, value) => {
+        
+        let valueClass;
+        
+        if(value == 0){
+            valueClass = "li-unchecked";
+        } else {
+            valueClass = "li-checked";
+        }
+    
         let template = `
-            <li class="list-group-item d-flex li-unchecked li-items p-0">
+            <li class="list-group-item d-flex ${valueClass} li-items p-0" id="${item_id}">
                 <div class="li-div-btn">
                        <label class="custom-checkbox">
       <input type="checkbox" value="checkbox1">
@@ -64,10 +63,13 @@ class ZeldaBotwChecklist {
     constructor() {
         this.userData = {};
         this.questData = {};
-        console.log("Criou classe")
+//        console.log("Criou classe")
     }
     loadUserData(data) {
         this.userData = data;
+        for(const key in this.userData) {
+            this.userData[key]['value'] = 0;
+        }
     }
     loadQuestData(data) {
         for(const name in data) {     
@@ -100,10 +102,12 @@ class ZeldaBotwChecklist {
         for(const region in questDatas){
 
             html = generateGroupHeader(region) 
-
+            
             questDatas[region].forEach(quest => {
                 let questText = `${quest['Quest_Name']} | ${quest['Location']}`;
-                html += generateLi(questText)
+                let questID = quest['Properties']['Hash_Value_Int32'];
+                let questValue = quest['value'];
+                html += generateLi(questText,questID,questValue)
             });
 
             html += generateGroupFooter()
@@ -112,6 +116,13 @@ class ZeldaBotwChecklist {
 
         }
         return html_page;  
+    }
+    toggleValue(questID) {
+        if(this.userData[questID].value == 0) {
+            this.userData[questID].value = 1;
+        } else {
+            this.userData[questID].value = 0;
+        }
     }
 };
 
@@ -141,7 +152,7 @@ list.addEventListener('click', e => {
         el = el.parentNode
     }
     
-    console.log(e.target.tagName)
+//    console.log(e.target.tagName)
     if((e.target.tagName == 'INPUT' && el.classList.contains('li-checked') == e.target.checked) || e.target.tagName == 'SPAN'){
         
     } else {
@@ -155,6 +166,7 @@ list.addEventListener('click', e => {
         el.classList.remove('li-checked')
         el.classList.add('li-unchecked')        
     }
+        zeldaBotwChecklist.toggleValue(el.id)
 
     if(e.target.tagName !== 'INPUT'){
         el.querySelector('input').click()
@@ -166,9 +178,7 @@ list.addEventListener('click', e => {
 
 headerButtons.addEventListener('click', e => {
     if(e.target.classList.contains('btn')){
-        console.log(e.target)
         let btnId = e.target.id.replace('_',' ')
-        console.log(btnId)
         list.innerHTML = zeldaBotwChecklist.getPageHTML(btnId)
         $(".btn-group").button("toggle");
     }
