@@ -31,18 +31,26 @@ const generateLi = (item, item_id, value) => {
             valueClass = "li-checked";
         }
     
+//        let template = `
+//            <li class="list-group-item d-flex ${valueClass} li-items p-0" id="${item_id}">
+//                <div class="li-div-btn">
+//                       <label class="custom-checkbox">
+//      <input type="checkbox" value="checkbox1">
+//      <span></span>
+//    </label>
+//                </div>
+//                <span class="pl-1 pr-1">${item}</span>
+//            </li>
+//    `;
+    
         let template = `
             <li class="list-group-item d-flex ${valueClass} li-items p-0" id="${item_id}">
                 <div class="li-div-btn">
-                       <label class="custom-checkbox">
-      <input type="checkbox" value="checkbox1">
-      <span></span>
-    </label>
+                    <i class="far fa-check-square icon-center"></i>
                 </div>
                 <span class="pl-1 pr-1">${item}</span>
             </li>
-    `;
-    
+    `;    
     
     return template;
     
