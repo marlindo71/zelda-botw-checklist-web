@@ -1,20 +1,5 @@
-//const addForm = document.querySelector('.add');
 const list = document.querySelector('.todoss');
-
-const generateTemplate = todo => {
-  
-    const html = `
-        <li class="d-flex li-unchecked li-items">
-          <div class="px-1 li-div-btn">
-              <input class="li-input.btn" type="checkbox" id="todo" name="todo" value="todo">
-          </div>
-          <span class="pl-1">${todo}</span>
-        </li>
-    `;
-    
-    list.innerHTML += html;
-};
-
+const headerButtons = document.querySelector('.header-buttons');
 
 const getQuests = async () => {
     const response =  await fetch('quests.json');
@@ -24,40 +9,10 @@ const getQuests = async () => {
 
 };
 
-
-const transformData = data => {
-    filtrado = {}
-
-    for(const name in data) {     
-        
-        
-        let questType = data[name].Quest_Type
-        let region = data[name].Region
-        
-        //Criar os tipos de Quest
-        if(!filtrado.hasOwnProperty(questType)){
-            filtrado[questType] = {}
-        }
-        
-        questTyoeObject = filtrado[questType]
-        
-        //Criar as Regiões
-        if(!questTyoeObject.hasOwnProperty(region)){
-           questTyoeObject[region] = [];
-        };
-        
-        questTyoeObject[region].push(data[name])
-        
-    }
-    
-    return filtrado
-};
-
-
 const generateGroupHeader = region => {
     
     let template = `
-       <div class="col-auto p-2">
+       <div class="card">
           <ul class="list-group todos mx-auto text-light">
             <li class="list-group-item text-center p-0">${region}</li>
     `;
@@ -105,50 +60,69 @@ const generateGroupFooter = item => {
     
 };
 
-const generatePage = data => {
-    shrine_quests = data['Side Quest']
-    
-    console.log(shrine_quests)
-    
-    let html = ''
-    let html_page = ''
-    
-    for(const region in shrine_quests){
-        
-        console.log(region)
-        
-        html = generateGroupHeader(region) 
-        
-        shrine_quests[region].forEach(quest => {
-            questText = `${quest['Quest_Name']} | ${quest['Location']}`;
-            html += generateLi(questText)
-        });
-        
-        html += generateGroupFooter()
-        
-        html_page += html
-        
+class ZeldaBotwChecklist {
+    constructor() {
+        this.userData = {};
+        this.questData = {};
+        console.log("Criou classe")
     }
-    
-//    let html = generateGroupHeader('Lanaruy Region')
-//    html += generateLi('Dahsdkja | sdkjhfsdf')
-//    html += generateLi('Dahsdkja | sdkjhfsdf')
-//    html += generateGroupFooter()
-    
-    list.innerHTML = html_page;
-    
-    console.log(html_page)
-    
+    loadUserData(data) {
+        this.userData = data;
+    }
+    loadQuestData(data) {
+        for(const name in data) {     
+
+            let questType = data[name].Quest_Type
+            let region = data[name].Region
+
+            //Criar os tipos de Quest
+            if(!this.questData.hasOwnProperty(questType)){
+                this.questData[questType] = {}
+            }
+
+            let questTyoeObject = this.questData[questType]
+
+            //Criar as Regiões
+            if(!questTyoeObject.hasOwnProperty(region)){
+               questTyoeObject[region] = [];
+            };
+
+            questTyoeObject[region].push(data[name])
+
+        }    
+    }
+    getPageHTML(questType) {
+        let questDatas = this.questData[questType]
+
+        let html = ''
+        let html_page = ''
+
+        for(const region in questDatas){
+
+            html = generateGroupHeader(region) 
+
+            questDatas[region].forEach(quest => {
+                let questText = `${quest['Quest_Name']} | ${quest['Location']}`;
+                html += generateLi(questText)
+            });
+
+            html += generateGroupFooter()
+
+            html_page += html
+
+        }
+        return html_page;  
+    }
 };
+
+const zeldaBotwChecklist = new ZeldaBotwChecklist();
 
 getQuests().then(data => {
     //Retorna um objeto separado por quests
-    questData = transformData(data)
-    generatePage(questData)
+    zeldaBotwChecklist.loadUserData(data)
+    zeldaBotwChecklist.loadQuestData(data)
+    list.innerHTML = zeldaBotwChecklist.getPageHTML('Side Quest')
 });
-
-
-
 
 list.addEventListener('mousedown', function (event) {
   if (event.detail > 1 && event.target.tagName != 'SPAN') {
@@ -189,3 +163,14 @@ list.addEventListener('click', e => {
         
 }
 })
+
+headerButtons.addEventListener('click', e => {
+    if(e.target.classList.contains('btn')){
+        console.log(e.target)
+        let btnId = e.target.id.replace('_',' ')
+        console.log(btnId)
+        list.innerHTML = zeldaBotwChecklist.getPageHTML(btnId)
+        $(".btn-group").button("toggle");
+    }
+})
+
