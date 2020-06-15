@@ -1,6 +1,7 @@
 const list = document.querySelector('.todoss');
 const headerButtons = document.querySelector('.header-buttons');
 const inputButton = document.getElementById('file-load');
+const loginButton = document.getElementById('loginButton');
 
 const getQuests = async () => {
     const response =  await fetch('quests.json');
@@ -165,6 +166,18 @@ class ZeldaBotwChecklist {
 
 const zeldaBotwChecklist = new ZeldaBotwChecklist();
 
+const login = () => {
+    let provider = new firebase.auth.GoogleAuthProvider();
+    provider.addScope('email');
+    firebase.auth().signInWithPopup(provider).then(function(result) {
+        // This gives you a Google Access Token.
+        let token = result.credential.accessToken;
+        // The signed-in user info.
+        let user = result.user;
+        console.log("login: ", user )
+    });
+};
+
 getQuests().then(data => {
     //Retorna um objeto separado por quests
     zeldaBotwChecklist.loadUserData(data)
@@ -233,4 +246,8 @@ inputButton.addEventListener('change',function(){
 //    zeldaBotwChecklist.loadSaveGameData();
 //    console.log(tempFile)
 //    console.log(tempFile.readU32(24))
+}, false)
+
+loginButton.addEventListener('click', e => {
+login();
 }, false)

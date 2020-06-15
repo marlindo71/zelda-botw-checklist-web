@@ -3,7 +3,7 @@ body{
     line-height: 1;
 }
 .container{
-    max-width: 960px;
+    max-width: 1350px;
 }
 input[type=text],
 input[type=text].focus{
@@ -56,11 +56,15 @@ input[type=text].focus{
   }
   @media (min-width:1200px) {
       .card-columns {
-        column-count: 2;
+        column-count: 3;
       }
   }
 
 
 .icon-center {
     margin: 2px;
+}
+
+.facebook {
+ background: #dd4b39;
 }
