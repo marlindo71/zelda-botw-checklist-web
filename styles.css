@@ -37,6 +37,9 @@ input[type=text].focus{
       .card-columns {
         column-count: 1;
       }
+    .card {
+        display: block;
+    }
   }
 
   @media (min-width:576px) {
@@ -67,4 +70,15 @@ input[type=text].focus{
 
 .facebook {
  background: #dd4b39;
+}
+
+        .progress {
+            height: 1.5rem;
+            background-color: #423a6f;
+            font-size: 1rem;
+        }
+.li-header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

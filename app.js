@@ -2,6 +2,7 @@ const list = document.querySelector('.todoss');
 const headerButtons = document.querySelector('.header-buttons');
 const inputButton = document.getElementById('file-load');
 const loginButton = document.getElementById('loginButton');
+const hideCompletedButton = document.getElementById('hideCompleted');
 
 const getQuests = async () => {
     const response =  await fetch('quests.json');
@@ -11,12 +12,29 @@ const getQuests = async () => {
 
 };
 
+//const generateGroupHeader = region => {
+//    
+//    let template = `
+//       <div class="card">
+//          <ul class="list-group todos mx-auto text-light">
+//            <li class="list-group-item text-center p-0">${region}</li>
+//    `;
+//    
+//    return template;
+//    
+//};
+
 const generateGroupHeader = region => {
     
     let template = `
        <div class="card">
           <ul class="list-group todos mx-auto text-light">
-            <li class="list-group-item text-center p-0">${region}</li>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <li class="list-group-item text-center p-0 border-0 li-header">${region}</li>
+                </div>
+            </div>
+
     `;
     
     return template;
@@ -27,6 +45,7 @@ const generateLi = (item, item_id, value) => {
         
         let valueClass;
         let valueClassIcon;
+        let display_type = "d-flex"
     
         if(value == 0){
             valueClass = "li-unchecked";
@@ -34,6 +53,8 @@ const generateLi = (item, item_id, value) => {
         } else {
             valueClass = "li-checked";
             valueClassIcon = "fa-check-square text-success";
+            if (zeldaBotwChecklist.hideComplete) display_type = "d-none"
+
         }
     
 //        let template = `
@@ -49,7 +70,7 @@ const generateLi = (item, item_id, value) => {
 //    `;
     
         let template = `
-            <li class="list-group-item d-flex ${valueClass} li-items p-0" id="${item_id}">
+            <li class="list-group-item ${display_type} ${valueClass} li-items p-0" id="${item_id}">
                 <div class="li-div-btn">
                     <i class="far icon-center ${valueClassIcon}"></i>
                 </div>
@@ -76,6 +97,7 @@ class ZeldaBotwChecklist {
     constructor() {
         this.userData = {};
         this.questData = {};
+        this.hideComplete = false;
 //        console.log("Criou classe")
     }
     loadUserData(data) {
@@ -213,14 +235,25 @@ list.addEventListener('click', e => {
         el.classList.add('li-checked')
 
         el_icon.classList.remove('fa-square','text-danger')
-        el_icon.classList.add('fa-check-square','text-success')           
+        el_icon.classList.add('fa-check-square','text-success')
+  
+                  if (zeldaBotwChecklist.hideComplete) {
+
+                              setTimeout(() => { 
+                     el.classList.remove('d-flex')
+            el.classList.add('d-none')
+        }, 200);
+        }              
+        
+
+
         
     }else if(el.classList.contains('li-checked')) {
         el.classList.remove('li-checked')
         el.classList.add('li-unchecked')
         
         el_icon.classList.remove('fa-check-square','text-success')
-        el_icon.classList.add('fa-square','text-danger') 
+        el_icon.classList.add('fa-square','text-danger')
 
     
     }
@@ -250,4 +283,11 @@ inputButton.addEventListener('change',function(){
 
 loginButton.addEventListener('click', e => {
 login();
+}, false)
+
+hideCompletedButton.addEventListener('click', e => {
+    zeldaBotwChecklist.hideComplete = e.target.checked;
+    let btnActive = headerButtons.querySelector('.active').id.replace('_',' ')
+    list.innerHTML = zeldaBotwChecklist.getPageHTML(btnActive)
+
 }, false)
