@@ -24,14 +24,16 @@ const getQuests = async () => {
 //    
 //};
 
-const generateGroupHeader = region => {
+const generateGroupHeader = (region, total, completed) => {
+    
+    let perc = Math.round(completed / total * 100)
     
     let template = `
-       <div class="card">
+       <div class="card m-3">
           <ul class="list-group todos mx-auto text-light">
             <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <li class="list-group-item text-center p-0 border-0 li-header">${region}</li>
+                <div class="progress-bar bg-success" role="progressbar" style="width: ${perc}%" aria-valuenow="${perc}" aria-valuemin="0" aria-valuemax="100">
+                    <li class="list-group-item text-center p-0 border-0 li-header">${region} - (${completed}/${total}) - ${perc}%</li>
                 </div>
             </div>
 
@@ -97,6 +99,7 @@ class ZeldaBotwChecklist {
     constructor() {
         this.userData = {};
         this.questData = {};
+        this.headerData = {};
         this.hideComplete = false;
 //        console.log("Criou classe")
     }
@@ -104,6 +107,16 @@ class ZeldaBotwChecklist {
         this.userData = data;
         for(const key in this.userData) {
             this.userData[key]['value'] = 0;
+            let questType = this.userData[key].Quest_Type;
+            let region = this.userData[key].Region;
+//            this.headerData[questType][region]['Total'] += 1;
+        }
+    }
+    loadHeaderData() {
+        for(const key in this.userData) {
+            let questType = this.userData[key].Quest_Type;
+            let region = this.userData[key].Region;
+            this.headerData[questType][region]['Total'] += 1;
         }
     }
     loadQuestData(data) {
@@ -115,18 +128,21 @@ class ZeldaBotwChecklist {
             //Criar os tipos de Quest
             if(!this.questData.hasOwnProperty(questType)){
                 this.questData[questType] = {}
+                this.headerData[questType] = {}
             }
 
             let questTyoeObject = this.questData[questType]
+            let questTyoeObjectH = this.headerData[questType]
 
             //Criar as Regiões
             if(!questTyoeObject.hasOwnProperty(region)){
                questTyoeObject[region] = [];
+               questTyoeObjectH[region] = { "Completed": 0, "Total" : 0};
             };
 
             questTyoeObject[region].push(data[name])
 
-        }    
+        }
     }
     getPageHTML(questType) {
         let questDatas = this.questData[questType]
@@ -135,8 +151,10 @@ class ZeldaBotwChecklist {
         let html_page = ''
 
         for(const region in questDatas){
-
-            html = generateGroupHeader(region) 
+            
+            let total = this.headerData[questType][region]['Total'];
+            let completed = this.headerData[questType][region]['Completed'];
+            html = generateGroupHeader(region, total, completed) 
             
             questDatas[region].forEach(quest => {
                 let questText = `${quest['Quest_Name']} | ${quest['Location']}`;
@@ -179,7 +197,16 @@ class ZeldaBotwChecklist {
         tempFile.fileName='game_data.sav';
         for(const key in this.userData) {
             let offset = parseInt(this.userData[key].Properties.Offset) + 4
-            this.userData[key].value = tempFile.readU32(offset)
+            let value = tempFile.readU32(offset)
+            this.userData[key].value = value;
+            
+            //Update Header
+            let questType = this.userData[key].Quest_Type
+            let region = this.userData[key].Region
+            if (value) this.headerData[questType][region]['Completed'] += 1;
+            
+            
+            
         }
         let btnActive = headerButtons.querySelector('.active').id.replace('_',' ')
         list.innerHTML = this.getPageHTML(btnActive)
@@ -204,6 +231,7 @@ getQuests().then(data => {
     //Retorna um objeto separado por quests
     zeldaBotwChecklist.loadUserData(data)
     zeldaBotwChecklist.loadQuestData(data)
+    zeldaBotwChecklist.loadHeaderData()
     list.innerHTML = zeldaBotwChecklist.getPageHTML('Side Quest')
 });
 
