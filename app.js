@@ -4,6 +4,33 @@ const inputButton = document.getElementById('file-load');
 const loginButton = document.getElementById('loginButton');
 const hideCompletedButton = document.getElementById('hideCompleted');
 
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyAv0ezDkgE3oe9AkrJELuwOUc_XjwYIvm4",
+    authDomain: "zelda-botw-checklist.firebaseapp.com",
+    databaseURL: "https://zelda-botw-checklist.firebaseio.com",
+    projectId: "zelda-botw-checklist",
+    storageBucket: "zelda-botw-checklist.appspot.com",
+    messagingSenderId: "248731649524",
+    appId: "1:248731649524:web:88bf9c7ea0682c001f65a1",
+    measurementId: "G-6FMHLKDWH6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+    firebase.auth().onAuthStateChanged(function(user) {
+        if (user) loginButton.lastChild.data = user.email; 
+        
+});
+
+//firebase.auth().signOut().then(function() {
+//  // Sign-out successful.
+//}).catch(function(error) {
+//  // An error happened.
+//});
+
+
 const getQuests = async () => {
     const response =  await fetch('quests.json');
     const data = await response.json();
@@ -224,7 +251,21 @@ const login = () => {
         // The signed-in user info.
         let user = result.user;
         console.log("login: ", user )
+        if (user) loginButton.lastChild.data = user.email;
     });
+};
+
+const logout = () => {
+
+    
+    firebase.auth().signOut().then(function() {
+  // Sign-out successful.
+        loginButton.lastChild.data = "Sign in with Google";
+}).catch(function(error) {
+        
+  // An error happened.
+});
+    
 };
 
 getQuests().then(data => {
@@ -310,7 +351,14 @@ inputButton.addEventListener('change',function(){
 }, false)
 
 loginButton.addEventListener('click', e => {
-login();
+
+    if (!firebase.auth().currentUser) {
+        login();
+    } else {
+        logout();
+    }
+    
+    console.log(e.target)
 }, false)
 
 hideCompletedButton.addEventListener('click', e => {
