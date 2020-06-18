@@ -33,7 +33,7 @@ const generateGroupHeader = (region, total, completed) => {
        <div class="card m-3">
           <ul class="list-group todos mx-auto text-light">
             <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: ${perc}%" aria-valuenow="${perc}" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-success" role="progressbar" style="width: ${perc}%" aria-valuenow="${completed}" aria-valuemin="0" aria-valuemax="${total}">
                     <li class="list-group-item text-center p-0 border-0 li-header">${region} - (${completed}/${total}) - ${perc}%</li>
                 </div>
             </div>
@@ -98,6 +98,7 @@ const generateGroupFooter = item => {
 
 class ZeldaBotwChecklist {
     constructor() {
+        this.isAnonymous = true;
         this.userData = {};
         this.headerData = {};
         this.hideComplete = false;
@@ -139,21 +140,26 @@ class ZeldaBotwChecklist {
         for(const region in questDatas){
             
             let total = this.headerData[questType][region]['Total'];
-            let completed = this.headerData[questType][region]['Completed'];
-            html = generateGroupHeader(region, total, completed) 
-            
+            let completed = 0;
+//            let completed = this.headerData[questType][region]['Completed'];
+            html = ""
+//            html = generateGroupHeader(region, total, completed)
             questDatas[region]['Quests'].forEach(quest => {
                 let questText = `${quest['Quest_Name']} | ${quest['Location']}`;
                 let questID = quest['Properties']['Hash_Value_Int32'];
                 let questValue = this.userData[questID]['value'];
+                completed += questValue;
                 html += generateLi(questText,questID,questValue)
             });
-
             html += generateGroupFooter()
-
+            
+            html = generateGroupHeader(region, total, completed) + html
+            
             html_page += html
 
         }
+        
+        
         return html_page;  
     }
     toggleValue(questID) {
@@ -162,6 +168,9 @@ class ZeldaBotwChecklist {
         } else {
             this.userData[questID].value = 0;
         }
+            if (this.isAnonymous) {
+        window.localStorage.setItem('userData', JSON.stringify(zeldaBotwChecklist.userData));
+    };
     }
     checkValidSavegame() {
         return true;
@@ -186,6 +195,7 @@ class ZeldaBotwChecklist {
                 })
             }
         }
+        window.localStorage.setItem('userData', JSON.stringify(zeldaBotwChecklist.userData));        
         let btnActive = headerButtons.querySelector('.active').id.replace('_',' ')
         list.innerHTML = this.getPageHTML(btnActive)
         
@@ -200,9 +210,8 @@ firebase.analytics();
 
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
-
         loginButton.lastChild.data = user.email;
-
+        this.isAnonymous = false;
         const db = firebase.firestore();
 
         db.collection('users').doc(user.uid).get().then((doc) => {
@@ -254,7 +263,14 @@ const logout = () => {
 getQuests().then(data => {    
     //Retorna um objeto separado por quests
     zeldaBotwChecklist.loadQuestData(data)
-    zeldaBotwChecklist.loadUserData(data)
+    let localUserData = window.localStorage.getItem('userData')
+    if (localUserData) {
+        zeldaBotwChecklist.userData = JSON.parse(localUserData)
+    } else {
+        zeldaBotwChecklist.loadUserData(data)
+        window.localStorage.setItem('userData', JSON.stringify(zeldaBotwChecklist.userData));
+    }
+    
     list.innerHTML = zeldaBotwChecklist.getPageHTML('Side Quest')
 });
 
@@ -280,6 +296,11 @@ list.addEventListener('click', e => {
     } else {
         
     el_icon = el.querySelector('i');
+        const headerPB = el.parentNode.querySelector('.progress-bar')
+        let completed = Number(headerPB.getAttribute("aria-valuenow"))
+        const total = Number(headerPB.getAttribute("aria-valuemax"))
+        
+
        
     if(el.classList.contains('li-unchecked')){
         el.classList.remove('li-unchecked')
@@ -287,6 +308,8 @@ list.addEventListener('click', e => {
 
         el_icon.classList.remove('fa-square','text-danger')
         el_icon.classList.add('fa-check-square','text-success')
+        
+        completed += 1;
   
                   if (zeldaBotwChecklist.hideComplete) {
 
@@ -305,9 +328,16 @@ list.addEventListener('click', e => {
         
         el_icon.classList.remove('fa-check-square','text-success')
         el_icon.classList.add('fa-square','text-danger')
-
-    
+        
+        completed -= 1;    
     }
+    
+    headerPB.setAttribute("aria-valuenow", completed)
+    const perc = Math.round(completed / total * 100) 
+//    console.log(headerPB.style.width)
+    headerPB.style.width = `${perc}%`;
+        
+    console.log(completed,total)
     
     zeldaBotwChecklist.toggleValue(el.id)
         
