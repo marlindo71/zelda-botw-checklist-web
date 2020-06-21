@@ -2772,5 +2772,2181 @@
             "Offset": "456028",
             "Type": "bool"
         }
+    },
+      "-139866780": {
+    "Quest_Name": "Tah Muhl Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Tah Muhl",
+    "Subtitle": "Passing the Flame",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 153,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon000",
+      "Hash_Value_UInt32": "4155100516",
+      "Hash_Value_Int32": "-139866780",
+      "Offset": "1012860",
+      "Type": "bool"
     }
+  },
+  "-2136015374": {
+    "Quest_Name": "Jee Noh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Jee Noh",
+    "Subtitle": "On the Move",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 154,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon001",
+      "Hash_Value_UInt32": "2158951922",
+      "Hash_Value_Int32": "-2136015374",
+      "Offset": "525380",
+      "Type": "bool"
+    }
+  },
+  "430419016": {
+    "Quest_Name": "Sah Dahaj Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sah Dahaj",
+    "Subtitle": "Power of Fire",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 155,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon002",
+      "Hash_Value_UInt32": "430419016",
+      "Hash_Value_Int32": "430419016",
+      "Offset": "39356",
+      "Type": "bool"
+    }
+  },
+  "1856019678": {
+    "Quest_Name": "Hawa Koth Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Hawa Koth",
+    "Subtitle": "The Current Solution",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 156,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon003",
+      "Hash_Value_UInt32": "1856019678",
+      "Hash_Value_Int32": "1856019678",
+      "Offset": "472580",
+      "Type": "bool"
+    }
+  },
+  "-255587971": {
+    "Quest_Name": "Zalta Wa Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Zalta Wa",
+    "Subtitle": "Two Orbs to Guide You",
+    "Region": "Ridgeland Region",
+    "Location": "",
+    "Order": 157,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon004",
+      "Hash_Value_UInt32": "4039379325",
+      "Hash_Value_Int32": "-255587971",
+      "Offset": "947652",
+      "Type": "bool"
+    }
+  },
+  "-2017248789": {
+    "Quest_Name": "Ne'ez Yohma Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ne'ez Yohma",
+    "Subtitle": "Pushing Power",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 158,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon005",
+      "Hash_Value_UInt32": "2277718507",
+      "Hash_Value_Int32": "-2017248789",
+      "Offset": "538116",
+      "Type": "bool"
+    }
+  },
+  "516581457": {
+    "Quest_Name": "Yah Rin Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Yah Rin",
+    "Subtitle": "A Weighty Decision",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 159,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon006",
+      "Hash_Value_UInt32": "516581457",
+      "Hash_Value_Int32": "516581457",
+      "Offset": "46324",
+      "Type": "bool"
+    }
+  },
+  "1775065287": {
+    "Quest_Name": "Bosh Kala Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Bosh Kala",
+    "Subtitle": "The Wind Guides You",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 160,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon007",
+      "Hash_Value_UInt32": "1775065287",
+      "Hash_Value_Int32": "1775065287",
+      "Offset": "462844",
+      "Type": "bool"
+    }
+  },
+  "-109951658": {
+    "Quest_Name": "Bareeda Naag Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Bareeda Naag",
+    "Subtitle": "Cannon",
+    "Region": "Tabantha Region",
+    "Location": "",
+    "Order": 161,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon008",
+      "Hash_Value_UInt32": "4185015638",
+      "Hash_Value_Int32": "-109951658",
+      "Offset": "1016388",
+      "Type": "bool"
+    }
+  },
+  "-1904904768": {
+    "Quest_Name": "Owa Daim Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Owa Daim",
+    "Subtitle": "Stasis Trial",
+    "Region": "Great Plateau Region",
+    "Location": "",
+    "Order": 162,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon009",
+      "Hash_Value_UInt32": "2390062528",
+      "Hash_Value_Int32": "-1904904768",
+      "Offset": "548204",
+      "Type": "bool"
+    }
+  },
+  "-290259931": {
+    "Quest_Name": "Kay Noh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kay Noh",
+    "Subtitle": "Power of Electricity",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 163,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon010",
+      "Hash_Value_UInt32": "4004707365",
+      "Hash_Value_Int32": "-290259931",
+      "Offset": "944780",
+      "Type": "bool"
+    }
+  },
+  "-1716138829": {
+    "Quest_Name": "Monya Toma Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Monya Toma",
+    "Subtitle": "Drawing Parabolas",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 164,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon011",
+      "Hash_Value_UInt32": "2578828467",
+      "Hash_Value_Int32": "-1716138829",
+      "Offset": "566020",
+      "Type": "bool"
+    }
+  },
+  "12360969": {
+    "Quest_Name": "Voo Lota Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Voo Lota",
+    "Subtitle": "The Winding Route",
+    "Region": "Tabantha Region",
+    "Location": "",
+    "Order": 165,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon012",
+      "Hash_Value_UInt32": "12360969",
+      "Hash_Value_Int32": "12360969",
+      "Offset": "1732",
+      "Type": "bool"
+    }
+  },
+  "2008788383": {
+    "Quest_Name": "Katosa Aug Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Katosa Aug",
+    "Subtitle": "Katosa Aug Apparatus",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 166,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon013",
+      "Hash_Value_UInt32": "2008788383",
+      "Hash_Value_Int32": "2008788383",
+      "Offset": "512612",
+      "Type": "bool"
+    }
+  },
+  "-371247044": {
+    "Quest_Name": "Kam Urog Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kam Urog",
+    "Subtitle": "Trial of Passage",
+    "Region": "Hateno Region",
+    "Location": "",
+    "Order": 167,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon014",
+      "Hash_Value_UInt32": "3923720252",
+      "Hash_Value_Int32": "-371247044",
+      "Offset": "933804",
+      "Type": "bool"
+    }
+  },
+  "-1630009174": {
+    "Quest_Name": "Toto Sah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Toto Sah",
+    "Subtitle": "Toto Sah Apparatus",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 168,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon015",
+      "Hash_Value_UInt32": "2664958122",
+      "Hash_Value_Int32": "-1630009174",
+      "Offset": "794628",
+      "Type": "bool"
+    }
+  },
+  "131160336": {
+    "Quest_Name": "Rucco Maag Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Rucco Maag",
+    "Subtitle": "Five Flames",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 169,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon016",
+      "Hash_Value_UInt32": "131160336",
+      "Hash_Value_Int32": "131160336",
+      "Offset": "11636",
+      "Type": "bool"
+    }
+  },
+  "1893099910": {
+    "Quest_Name": "Shee Vaneer Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shee Vaneer",
+    "Subtitle": "Twin Memories",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 170,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon017",
+      "Hash_Value_UInt32": "1893099910",
+      "Hash_Value_Int32": "1893099910",
+      "Offset": "476740",
+      "Type": "bool"
+    }
+  },
+  "-529959913": {
+    "Quest_Name": "Rok Uwog Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Rok Uwog",
+    "Subtitle": "Power of Reach",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 171,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon018",
+      "Hash_Value_UInt32": "3765007383",
+      "Hash_Value_Int32": "-529959913",
+      "Offset": "914116",
+      "Type": "bool"
+    }
+  },
+  "-1754381183": {
+    "Quest_Name": "Dow Na'eh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Dow Na'eh",
+    "Subtitle": "Three Boxes",
+    "Region": "Hateno Region",
+    "Location": "",
+    "Order": 172,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon019",
+      "Hash_Value_UInt32": "2540586113",
+      "Hash_Value_Int32": "-1754381183",
+      "Offset": "562748",
+      "Type": "bool"
+    }
+  },
+  "-979390490": {
+    "Quest_Name": "Sheem Dagoze Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sheem Dagoze",
+    "Subtitle": "Moving in Parallel",
+    "Region": "Ridgeland Region",
+    "Location": "",
+    "Order": 173,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon020",
+      "Hash_Value_UInt32": "3315576806",
+      "Hash_Value_Int32": "-979390490",
+      "Offset": "856908",
+      "Type": "bool"
+    }
+  },
+  "-1298620560": {
+    "Quest_Name": "Toh Yahsa Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Toh Yahsa",
+    "Subtitle": "Buried Secrets",
+    "Region": "Ridgeland Region",
+    "Location": "",
+    "Order": 174,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon021",
+      "Hash_Value_UInt32": "2996346736",
+      "Hash_Value_Int32": "-1298620560",
+      "Offset": "822172",
+      "Type": "bool"
+    }
+  },
+  "730975946": {
+    "Quest_Name": "Keo Ruug Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Keo Ruug",
+    "Subtitle": "Fateful Stars",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 175,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon022",
+      "Hash_Value_UInt32": "730975946",
+      "Hash_Value_Int32": "730975946",
+      "Offset": "71508",
+      "Type": "bool"
+    }
+  },
+  "1553399388": {
+    "Quest_Name": "Sheh Rata Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sheh Rata",
+    "Subtitle": "Speed of Light",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 176,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon023",
+      "Hash_Value_UInt32": "1553399388",
+      "Hash_Value_Int32": "1553399388",
+      "Offset": "390572",
+      "Type": "bool"
+    }
+  },
+  "-1024300033": {
+    "Quest_Name": "Mezza Lo Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Mezza Lo",
+    "Subtitle": "Ancient Trifecta",
+    "Region": "Hateno Region",
+    "Location": "",
+    "Order": 177,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon024",
+      "Hash_Value_UInt32": "3270667263",
+      "Hash_Value_Int32": "-1024300033",
+      "Offset": "853084",
+      "Type": "bool"
+    }
+  },
+  "-1242211479": {
+    "Quest_Name": "Kayra Mah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kayra Mah",
+    "Subtitle": "Greedy Hill",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 178,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon025",
+      "Hash_Value_UInt32": "3052755817",
+      "Hash_Value_Int32": "-1242211479",
+      "Offset": "826916",
+      "Type": "bool"
+    }
+  },
+  "754715347": {
+    "Quest_Name": "Shae Mo'sah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shae Mo'sah",
+    "Subtitle": "Swinging Flames",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 179,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon026",
+      "Hash_Value_UInt32": "754715347",
+      "Hash_Value_Int32": "754715347",
+      "Offset": "73324",
+      "Type": "bool"
+    }
+  },
+  "1543191109": {
+    "Quest_Name": "Rota Ooh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Rota Ooh",
+    "Subtitle": "Passing of the Gates",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 180,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon027",
+      "Hash_Value_UInt32": "1543191109",
+      "Hash_Value_Int32": "1543191109",
+      "Offset": "389708",
+      "Type": "bool"
+    }
+  },
+  "-884725804": {
+    "Quest_Name": "Shora Hah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shora Hah",
+    "Subtitle": "Blue Flame",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 181,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon028",
+      "Hash_Value_UInt32": "3410241492",
+      "Hash_Value_Int32": "-884725804",
+      "Offset": "864836",
+      "Type": "bool"
+    }
+  },
+  "-1136453822": {
+    "Quest_Name": "Hila Rao Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Hila Rao",
+    "Subtitle": "Drifting",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 182,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon029",
+      "Hash_Value_UInt32": "3158513474",
+      "Hash_Value_Int32": "-1136453822",
+      "Offset": "843060",
+      "Type": "bool"
+    }
+  },
+  "-595288409": {
+    "Quest_Name": "Joloo Nah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Joloo Nah",
+    "Subtitle": "Joloo Nah Apparatus",
+    "Region": "Gerudo Region",
+    "Location": "",
+    "Order": 183,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon030",
+      "Hash_Value_UInt32": "3699678887",
+      "Hash_Value_Int32": "-595288409",
+      "Offset": "908380",
+      "Type": "bool"
+    }
+  },
+  "-1417433551": {
+    "Quest_Name": "Mo'a Keet Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Mo'a Keet",
+    "Subtitle": "Metal Makes a Path",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 184,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon031",
+      "Hash_Value_UInt32": "2877533745",
+      "Hash_Value_Int32": "-1417433551",
+      "Offset": "812172",
+      "Type": "bool"
+    }
+  },
+  "847970187": {
+    "Quest_Name": "Dako Tah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Dako Tah",
+    "Subtitle": "Electric Path",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 185,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon032",
+      "Hash_Value_UInt32": "847970187",
+      "Hash_Value_Int32": "847970187",
+      "Offset": "302084",
+      "Type": "bool"
+    }
+  },
+  "1166921501": {
+    "Quest_Name": "Daka Tuss Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Daka Tuss",
+    "Subtitle": "Sunken Scoop",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 186,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon033",
+      "Hash_Value_UInt32": "1166921501",
+      "Hash_Value_Int32": "1166921501",
+      "Offset": "344564",
+      "Type": "bool"
+    }
+  },
+  "-605463874": {
+    "Quest_Name": "Kah Yah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kah Yah",
+    "Subtitle": "Quick Thinking",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 187,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon034",
+      "Hash_Value_UInt32": "3689503422",
+      "Hash_Value_Int32": "-605463874",
+      "Offset": "907572",
+      "Type": "bool"
+    }
+  },
+  "-1393661400": {
+    "Quest_Name": "Akh Va'quot Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Akh Va'quot",
+    "Subtitle": "Windmills",
+    "Region": "Tabantha Region",
+    "Location": "",
+    "Order": 188,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon035",
+      "Hash_Value_UInt32": "2901305896",
+      "Hash_Value_Int32": "-1393661400",
+      "Offset": "814196",
+      "Type": "bool"
+    }
+  },
+  "904346514": {
+    "Quest_Name": "Sho Dantu Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sho Dantu",
+    "Subtitle": "Two Bombs",
+    "Region": "Gerudo Region",
+    "Location": "",
+    "Order": 189,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon036",
+      "Hash_Value_UInt32": "904346514",
+      "Hash_Value_Int32": "904346514",
+      "Offset": "307780",
+      "Type": "bool"
+    }
+  },
+  "1121979140": {
+    "Quest_Name": "Shae Loya Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shae Loya",
+    "Subtitle": "Aim for the Moment",
+    "Region": "Ridgeland Region",
+    "Location": "",
+    "Order": 190,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon037",
+      "Hash_Value_UInt32": "1121979140",
+      "Hash_Value_Int32": "1121979140",
+      "Offset": "340444",
+      "Type": "bool"
+    }
+  },
+  "-765520235": {
+    "Quest_Name": "Oman Au Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Oman Au",
+    "Subtitle": "Magnesis Trial",
+    "Region": "Great Plateau Region",
+    "Location": "",
+    "Order": 191,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon038",
+      "Hash_Value_UInt32": "3529447061",
+      "Hash_Value_Int32": "-765520235",
+      "Offset": "893108",
+      "Type": "bool"
+    }
+  },
+  "-1520949757": {
+    "Quest_Name": "Myahm Agana Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Myahm Agana",
+    "Subtitle": "Myahm Agana Apparatus",
+    "Region": "Hateno Region",
+    "Location": "",
+    "Order": 192,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon039",
+      "Hash_Value_UInt32": "2774017539",
+      "Hash_Value_Int32": "-1520949757",
+      "Offset": "804180",
+      "Type": "bool"
+    }
+  },
+  "-1815803808": {
+    "Quest_Name": "Kaam Ya'tak Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kaam Ya'tak",
+    "Subtitle": "Trial of Power",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 193,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon040",
+      "Hash_Value_UInt32": "2479163488",
+      "Hash_Value_Int32": "-1815803808",
+      "Offset": "557468",
+      "Type": "bool"
+    }
+  },
+  "-457033482": {
+    "Quest_Name": "Ja Baij Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ja Baij",
+    "Subtitle": "Bomb Trial",
+    "Region": "Great Plateau Region",
+    "Location": "",
+    "Order": 194,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon041",
+      "Hash_Value_UInt32": "3837933814",
+      "Hash_Value_Int32": "-457033482",
+      "Offset": "920316",
+      "Type": "bool"
+    }
+  },
+  "2110482764": {
+    "Quest_Name": "Rin Oyaa Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Rin Oyaa",
+    "Subtitle": "Directing the Wind",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 195,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon042",
+      "Hash_Value_UInt32": "2110482764",
+      "Hash_Value_Int32": "2110482764",
+      "Offset": "521500",
+      "Type": "bool"
+    }
+  },
+  "181164506": {
+    "Quest_Name": "Kuh Takkar Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kuh Takkar",
+    "Subtitle": "Melting Ice Hazard",
+    "Region": "Gerudo Region",
+    "Location": "",
+    "Order": 196,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon043",
+      "Hash_Value_UInt32": "181164506",
+      "Hash_Value_Int32": "181164506",
+      "Offset": "16108",
+      "Type": "bool"
+    }
+  },
+  "-1800876935": {
+    "Quest_Name": "Shee Venath Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shee Venath",
+    "Subtitle": "Twin Memories",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 197,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon044",
+      "Hash_Value_UInt32": "2494090361",
+      "Hash_Value_Int32": "-1800876935",
+      "Offset": "558652",
+      "Type": "bool"
+    }
+  },
+  "-475005713": {
+    "Quest_Name": "Ha Dahamar Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ha Dahamar",
+    "Subtitle": "The Water Guides",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 198,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon045",
+      "Hash_Value_UInt32": "3819961583",
+      "Hash_Value_Int32": "-475005713",
+      "Offset": "918916",
+      "Type": "bool"
+    }
+  },
+  "2057743701": {
+    "Quest_Name": "Shada Naw Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shada Naw",
+    "Subtitle": "Red Giveaway",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 199,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon046",
+      "Hash_Value_UInt32": "2057743701",
+      "Hash_Value_Int32": "2057743701",
+      "Offset": "516628",
+      "Type": "bool"
+    }
+  },
+  "228695491": {
+    "Quest_Name": "Ree Dahee Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ree Dahee",
+    "Subtitle": "Timing Is Critical",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 200,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon047",
+      "Hash_Value_UInt32": "228695491",
+      "Hash_Value_Int32": "228695491",
+      "Offset": "20100",
+      "Type": "bool"
+    }
+  },
+  "-1658945454": {
+    "Quest_Name": "Ze Kasho Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ze Kasho",
+    "Subtitle": "Ze Kasho Apparatus",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 201,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon048",
+      "Hash_Value_UInt32": "2636021842",
+      "Hash_Value_Int32": "-1658945454",
+      "Offset": "792484",
+      "Type": "bool"
+    }
+  },
+  "-367415100": {
+    "Quest_Name": "Kaya Wan Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kaya Wan",
+    "Subtitle": "Shields from Water",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 202,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon049",
+      "Hash_Value_UInt32": "3927552196",
+      "Hash_Value_Int32": "-367415100",
+      "Offset": "934116",
+      "Type": "bool"
+    }
+  },
+  "-1965147871": {
+    "Quest_Name": "Shai Utoh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shai Utoh",
+    "Subtitle": "Halt the Tilt",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 203,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon050",
+      "Hash_Value_UInt32": "2329819425",
+      "Hash_Value_Int32": "-1965147871",
+      "Offset": "543332",
+      "Type": "bool"
+    }
+  },
+  "-36107849": {
+    "Quest_Name": "Maka Rah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Maka Rah",
+    "Subtitle": "Steady Thy Heart",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 204,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon051",
+      "Hash_Value_UInt32": "4258859447",
+      "Hash_Value_Int32": "-36107849",
+      "Offset": "1023484",
+      "Type": "bool"
+    }
+  },
+  "1691375629": {
+    "Quest_Name": "Gee Ha'rah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Gee Ha'rah",
+    "Subtitle": "Tandem",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 205,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon052",
+      "Hash_Value_UInt32": "1691375629",
+      "Hash_Value_Int32": "1691375629",
+      "Offset": "456124",
+      "Type": "bool"
+    }
+  },
+  "332884123": {
+    "Quest_Name": "Sha Warvo Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sha Warvo",
+    "Subtitle": "Path of Hidden Winds",
+    "Region": "Tabantha Region",
+    "Location": "",
+    "Order": 206,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon053",
+      "Hash_Value_UInt32": "332884123",
+      "Hash_Value_Int32": "332884123",
+      "Offset": "30124",
+      "Type": "bool"
+    }
+  },
+  "-1917584072": {
+    "Quest_Name": "Ka'o Makagh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ka'o Makagh",
+    "Subtitle": "Metal Doors Open the Way",
+    "Region": "Lake Region",
+    "Location": "",
+    "Order": 207,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon054",
+      "Hash_Value_UInt32": "2377383224",
+      "Hash_Value_Int32": "-1917584072",
+      "Offset": "547124",
+      "Type": "bool"
+    }
+  },
+  "-88814162": {
+    "Quest_Name": "Dunba Taag Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Dunba Taag",
+    "Subtitle": "Build and Release",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 208,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon055",
+      "Hash_Value_UInt32": "4206153134",
+      "Hash_Value_Int32": "-88814162",
+      "Offset": "1018212",
+      "Type": "bool"
+    }
+  },
+  "1673370644": {
+    "Quest_Name": "Mirro Shaz Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Mirro Shaz",
+    "Subtitle": "Tempered Power",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 209,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon056",
+      "Hash_Value_UInt32": "1673370644",
+      "Hash_Value_Int32": "1673370644",
+      "Offset": "454788",
+      "Type": "bool"
+    }
+  },
+  "347778178": {
+    "Quest_Name": "Wahgo Katta Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Wahgo Katta",
+    "Subtitle": "Metal Connections",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 210,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon057",
+      "Hash_Value_UInt32": "347778178",
+      "Hash_Value_Int32": "347778178",
+      "Offset": "31516",
+      "Type": "bool"
+    }
+  },
+  "-2080001773": {
+    "Quest_Name": "Mogg Latan Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Mogg Latan",
+    "Subtitle": "Synced Swing",
+    "Region": "Ridgeland Region",
+    "Location": "",
+    "Order": 211,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon058",
+      "Hash_Value_UInt32": "2214965523",
+      "Hash_Value_Int32": "-2080001773",
+      "Offset": "533140",
+      "Type": "bool"
+    }
+  },
+  "-217939579": {
+    "Quest_Name": "Kah Okeo Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kah Okeo",
+    "Subtitle": "Wind Guide",
+    "Region": "Tabantha Region",
+    "Location": "",
+    "Order": 212,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon059",
+      "Hash_Value_UInt32": "4077027717",
+      "Hash_Value_Int32": "-217939579",
+      "Offset": "950692",
+      "Type": "bool"
+    }
+  },
+  "-1577882910": {
+    "Quest_Name": "Daqo Chisay Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Daqo Chisay",
+    "Subtitle": "The Whole Picture",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 213,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon060",
+      "Hash_Value_UInt32": "2717084386",
+      "Hash_Value_Int32": "-1577882910",
+      "Offset": "798908",
+      "Type": "bool"
+    }
+  },
+  "-688629132": {
+    "Quest_Name": "Shoda Sah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shoda Sah",
+    "Subtitle": "Impeccable Timing",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 214,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon061",
+      "Hash_Value_UInt32": "3606338164",
+      "Hash_Value_Int32": "-688629132",
+      "Offset": "899932",
+      "Type": "bool"
+    }
+  },
+  "1341983694": {
+    "Quest_Name": "Sha Gehma Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sha Gehma",
+    "Subtitle": "Shift and Lock",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 215,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon062",
+      "Hash_Value_UInt32": "1341983694",
+      "Hash_Value_Int32": "1341983694",
+      "Offset": "359428",
+      "Type": "bool"
+    }
+  },
+  "955923288": {
+    "Quest_Name": "Kema Zoos Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kema Zoos",
+    "Subtitle": "A Delayed Puzzle",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 216,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon063",
+      "Hash_Value_UInt32": "955923288",
+      "Hash_Value_Int32": "955923288",
+      "Offset": "325236",
+      "Type": "bool"
+    }
+  },
+  "-1499549957": {
+    "Quest_Name": "Daqa Koh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Daqa Koh",
+    "Subtitle": "Stalled Flight",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 217,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon064",
+      "Hash_Value_UInt32": "2795417339",
+      "Hash_Value_Int32": "-1499549957",
+      "Offset": "805732",
+      "Type": "bool"
+    }
+  },
+  "-778461587": {
+    "Quest_Name": "Keh Namut Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Keh Namut",
+    "Subtitle": "Cryonis Trial",
+    "Region": "Great Plateau Region",
+    "Location": "",
+    "Order": 218,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon065",
+      "Hash_Value_UInt32": "3516505709",
+      "Hash_Value_Int32": "-778461587",
+      "Offset": "892108",
+      "Type": "bool"
+    }
+  },
+  "1217449943": {
+    "Quest_Name": "Kah Mael Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kah Mael",
+    "Subtitle": "Drop and Rise",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 219,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon066",
+      "Hash_Value_UInt32": "1217449943",
+      "Hash_Value_Int32": "1217449943",
+      "Offset": "348668",
+      "Type": "bool"
+    }
+  },
+  "1066925889": {
+    "Quest_Name": "Qua Raym Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Qua Raym",
+    "Subtitle": "A Balanced Approach",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 220,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon067",
+      "Hash_Value_UInt32": "1066925889",
+      "Hash_Value_Int32": "1066925889",
+      "Offset": "335692",
+      "Type": "bool"
+    }
+  },
+  "-1356274992": {
+    "Quest_Name": "Ya Naga Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ya Naga",
+    "Subtitle": "Shatter the Heavens",
+    "Region": "Lake Region",
+    "Location": "",
+    "Order": 221,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon068",
+      "Hash_Value_UInt32": "2938692304",
+      "Hash_Value_Int32": "-1356274992",
+      "Offset": "817564",
+      "Type": "bool"
+    }
+  },
+  "-667954618": {
+    "Quest_Name": "Ishto Soh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ishto Soh",
+    "Subtitle": "Bravery's Grasp",
+    "Region": "Lake Region",
+    "Location": "",
+    "Order": 222,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon069",
+      "Hash_Value_UInt32": "3627012678",
+      "Hash_Value_Int32": "-667954618",
+      "Offset": "901580",
+      "Type": "bool"
+    }
+  },
+  "-1192731741": {
+    "Quest_Name": "Soh Kofi Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Soh Kofi",
+    "Subtitle": "A Minor Test of Strength",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 223,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon070",
+      "Hash_Value_UInt32": "3102235555",
+      "Hash_Value_Int32": "-1192731741",
+      "Offset": "831084",
+      "Type": "bool"
+    }
+  },
+  "-806393035": {
+    "Quest_Name": "Pumaag Nitae Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Pumaag Nitae",
+    "Subtitle": "A Minor Test of Strength",
+    "Region": "Lake Region",
+    "Location": "",
+    "Order": 224,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon071",
+      "Hash_Value_UInt32": "3488574261",
+      "Hash_Value_Int32": "-806393035",
+      "Offset": "886468",
+      "Type": "bool"
+    }
+  },
+  "1457928847": {
+    "Quest_Name": "Dah Kaso Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Dah Kaso",
+    "Subtitle": "A Minor Test of Strength",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 225,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon072",
+      "Hash_Value_UInt32": "1457928847",
+      "Hash_Value_Int32": "1457928847",
+      "Offset": "382708",
+      "Type": "bool"
+    }
+  },
+  "568396313": {
+    "Quest_Name": "Katah Chuki Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Katah Chuki",
+    "Subtitle": "A Minor Test of Strength",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 226,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon073",
+      "Hash_Value_UInt32": "568396313",
+      "Hash_Value_Int32": "568396313",
+      "Offset": "50764",
+      "Type": "bool"
+    }
+  },
+  "-1081761862": {
+    "Quest_Name": "Noya Neha Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Noya Neha",
+    "Subtitle": "A Minor Test of Strength",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 227,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon074",
+      "Hash_Value_UInt32": "3213205434",
+      "Hash_Value_Int32": "-1081761862",
+      "Offset": "847748",
+      "Type": "bool"
+    }
+  },
+  "-930959572": {
+    "Quest_Name": "Dah Hesho Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Dah Hesho",
+    "Subtitle": "A Minor Test of Strength",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 228,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon075",
+      "Hash_Value_UInt32": "3364007724",
+      "Hash_Value_Int32": "-930959572",
+      "Offset": "860980",
+      "Type": "bool"
+    }
+  },
+  "1368129174": {
+    "Quest_Name": "Sasa Kai Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sasa Kai",
+    "Subtitle": "A Modest Test of Strength",
+    "Region": "Gerudo Region",
+    "Location": "",
+    "Order": 229,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon076",
+      "Hash_Value_UInt32": "1368129174",
+      "Hash_Value_Int32": "1368129174",
+      "Offset": "361532",
+      "Type": "bool"
+    }
+  },
+  "646761984": {
+    "Quest_Name": "Ke'nai Shakah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ke'nai Shakah",
+    "Subtitle": "A Modest Test of Strength",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 230,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon077",
+      "Hash_Value_UInt32": "646761984",
+      "Hash_Value_Int32": "646761984",
+      "Offset": "64804",
+      "Type": "bool"
+    }
+  },
+  "-1238117487": {
+    "Quest_Name": "Mijah Rokee Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Mijah Rokee",
+    "Subtitle": "A Modest Test of Strength",
+    "Region": "Ridgeland Region",
+    "Location": "",
+    "Order": 231,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon078",
+      "Hash_Value_UInt32": "3056849809",
+      "Hash_Value_Int32": "-1238117487",
+      "Offset": "827308",
+      "Type": "bool"
+    }
+  },
+  "-1053498617": {
+    "Quest_Name": "Namika Ozz Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Namika Ozz",
+    "Subtitle": "A Modest Test of Strength",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 232,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon079",
+      "Hash_Value_UInt32": "3241468679",
+      "Hash_Value_Int32": "-1053498617",
+      "Offset": "849884",
+      "Type": "bool"
+    }
+  },
+  "1064322924": {
+    "Quest_Name": "Shoqa Tatone Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shoqa Tatone",
+    "Subtitle": "A Modest Test of Strength",
+    "Region": "Lake Region",
+    "Location": "",
+    "Order": 233,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon080",
+      "Hash_Value_UInt32": "1064322924",
+      "Hash_Value_Int32": "1064322924",
+      "Offset": "335484",
+      "Type": "bool"
+    }
+  },
+  "1215789050": {
+    "Quest_Name": "Muwo Jeem Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Muwo Jeem",
+    "Subtitle": "A Modest Test of Strength",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 234,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon081",
+      "Hash_Value_UInt32": "1215789050",
+      "Hash_Value_Int32": "1215789050",
+      "Offset": "348548",
+      "Type": "bool"
+    }
+  },
+  "-780261824": {
+    "Quest_Name": "Chaas Qeta Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Chaas Qeta",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Hateno Region",
+    "Location": "",
+    "Order": 235,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon082",
+      "Hash_Value_UInt32": "3514705472",
+      "Hash_Value_Int32": "-780261824",
+      "Offset": "891988",
+      "Type": "bool"
+    }
+  },
+  "-1502013738": {
+    "Quest_Name": "Tena Ko'sah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Tena Ko'sah",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Tabantha Region",
+    "Location": "",
+    "Order": 236,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon083",
+      "Hash_Value_UInt32": "2792953558",
+      "Hash_Value_Int32": "-1502013738",
+      "Offset": "805500",
+      "Type": "bool"
+    }
+  },
+  "941458293": {
+    "Quest_Name": "Tutsuwa Nima Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Tutsuwa Nima",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 237,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon084",
+      "Hash_Value_UInt32": "941458293",
+      "Hash_Value_Int32": "941458293",
+      "Offset": "311060",
+      "Type": "bool"
+    }
+  },
+  "1327150051": {
+    "Quest_Name": "Kema Kosassa Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kema Kosassa",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Gerudo Region",
+    "Location": "",
+    "Order": 238,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon085",
+      "Hash_Value_UInt32": "1327150051",
+      "Hash_Value_Int32": "1327150051",
+      "Offset": "358276",
+      "Type": "bool"
+    }
+  },
+  "-703339943": {
+    "Quest_Name": "Goma Asaagh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Goma Asaagh",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 239,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon086",
+      "Hash_Value_UInt32": "3591627353",
+      "Hash_Value_Int32": "-703339943",
+      "Offset": "898860",
+      "Type": "bool"
+    }
+  },
+  "-1592470833": {
+    "Quest_Name": "Mozo Shenno Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Mozo Shenno",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 240,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon087",
+      "Hash_Value_UInt32": "2702496463",
+      "Hash_Value_Int32": "-1592470833",
+      "Offset": "797716",
+      "Type": "bool"
+    }
+  },
+  "833343326": {
+    "Quest_Name": "Hia Miu Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Hia Miu",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 241,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon088",
+      "Hash_Value_UInt32": "833343326",
+      "Hash_Value_Int32": "833343326",
+      "Offset": "300772",
+      "Type": "bool"
+    }
+  },
+  "1185742792": {
+    "Quest_Name": "Saas Ko'sah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Saas Ko'sah",
+    "Subtitle": "A Major Test of Strength",
+    "Region": "Central Region",
+    "Location": "",
+    "Order": 242,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon089",
+      "Hash_Value_UInt32": "1185742792",
+      "Hash_Value_Int32": "1185742792",
+      "Offset": "346164",
+      "Type": "bool"
+    }
+  },
+  "644576813": {
+    "Quest_Name": "Suma Sahma Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Suma Sahma",
+    "Subtitle": "Suma Sahma's Blessing",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 243,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon090",
+      "Hash_Value_UInt32": "644576813",
+      "Hash_Value_Int32": "644576813",
+      "Offset": "64580",
+      "Type": "bool"
+    }
+  },
+  "1366050491": {
+    "Quest_Name": "Gorae Torr Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Gorae Torr",
+    "Subtitle": "Gorae Torr's Blessing",
+    "Region": "Eldin Region",
+    "Location": "",
+    "Order": 244,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon091",
+      "Hash_Value_UInt32": "1366050491",
+      "Hash_Value_Int32": "1366050491",
+      "Offset": "361356",
+      "Type": "bool"
+    }
+  },
+  "-932899071": {
+    "Quest_Name": "Maag No'rah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Maag No'rah",
+    "Subtitle": "Maag No'rah's Blessing",
+    "Region": "Ridgeland Region",
+    "Location": "",
+    "Order": 245,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon092",
+      "Hash_Value_UInt32": "3362068225",
+      "Hash_Value_Int32": "-932899071",
+      "Offset": "860796",
+      "Type": "bool"
+    }
+  },
+  "-1084086377": {
+    "Quest_Name": "Raqa Zunzo Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Raqa Zunzo",
+    "Subtitle": "Raqa Zunzo's Blessing",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 246,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon093",
+      "Hash_Value_UInt32": "3210880919",
+      "Hash_Value_Int32": "-1084086377",
+      "Offset": "847476",
+      "Type": "bool"
+    }
+  },
+  "554086964": {
+    "Quest_Name": "Tho Kayu Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Tho Kayu",
+    "Subtitle": "Tho Kayu's Blessing",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 247,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon094",
+      "Hash_Value_UInt32": "554086964",
+      "Hash_Value_Int32": "554086964",
+      "Offset": "49420",
+      "Type": "bool"
+    }
+  },
+  "1442939554": {
+    "Quest_Name": "Kuhn Sidajj Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kuhn Sidajj",
+    "Subtitle": "Kuhn Sidajj's Blessing",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 248,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon095",
+      "Hash_Value_UInt32": "1442939554",
+      "Hash_Value_Int32": "1442939554",
+      "Offset": "381548",
+      "Type": "bool"
+    }
+  },
+  "-821505256": {
+    "Quest_Name": "Qukah Nata Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Qukah Nata",
+    "Subtitle": "Qukah Nata's Blessing",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 249,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon096",
+      "Hash_Value_UInt32": "3473462040",
+      "Hash_Value_Int32": "-821505256",
+      "Offset": "885276",
+      "Type": "bool"
+    }
+  },
+  "-1206918258": {
+    "Quest_Name": "Korgu Chideh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Korgu Chideh",
+    "Subtitle": "Korgu Chideh's Blessing",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 250,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon097",
+      "Hash_Value_UInt32": "3088049038",
+      "Hash_Value_Int32": "-1206918258",
+      "Offset": "830036",
+      "Type": "bool"
+    }
+  },
+  "682688031": {
+    "Quest_Name": "Daag Chokah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Daag Chokah",
+    "Subtitle": "Daag Chokah's Blessing",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 251,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon098",
+      "Hash_Value_UInt32": "682688031",
+      "Hash_Value_Int32": "682688031",
+      "Offset": "67500",
+      "Type": "bool"
+    }
+  },
+  "1605881481": {
+    "Quest_Name": "Ta'loh Naeg Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ta'loh Naeg",
+    "Subtitle": "Ta'loh Naeg's Teaching",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 252,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon099",
+      "Hash_Value_UInt32": "1605881481",
+      "Hash_Value_Int32": "1605881481",
+      "Offset": "448844",
+      "Type": "bool"
+    }
+  },
+  "-160716973": {
+    "Quest_Name": "Keeha Yoog Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Keeha Yoog",
+    "Subtitle": "Keeha Yoog's Blessing",
+    "Region": "Gerudo Region",
+    "Location": "",
+    "Order": 253,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon100",
+      "Hash_Value_UInt32": "4134250323",
+      "Hash_Value_Int32": "-160716973",
+      "Offset": "1011372",
+      "Type": "bool"
+    }
+  },
+  "-2123589691": {
+    "Quest_Name": "Dagah Keek Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Dagah Keek",
+    "Subtitle": "Dagah Keek's Blessing",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 254,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon101",
+      "Hash_Value_UInt32": "2171377605",
+      "Hash_Value_Int32": "-2123589691",
+      "Offset": "526620",
+      "Type": "bool"
+    }
+  },
+  "409323135": {
+    "Quest_Name": "Zuna Kai Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Zuna Kai",
+    "Subtitle": "Zuna Kai's Blessing",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 255,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon102",
+      "Hash_Value_UInt32": "409323135",
+      "Hash_Value_Int32": "409323135",
+      "Offset": "37644",
+      "Type": "bool"
+    }
+  },
+  "1868756713": {
+    "Quest_Name": "Dila Maag Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Dila Maag",
+    "Subtitle": "Dila Maag's Blessing",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 256,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon103",
+      "Hash_Value_UInt32": "1868756713",
+      "Hash_Value_Int32": "1868756713",
+      "Offset": "473564",
+      "Type": "bool"
+    }
+  },
+  "-251239606": {
+    "Quest_Name": "Lanno Kooh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Lanno Kooh",
+    "Subtitle": "Lanno Kooh's Blessing",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 257,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon104",
+      "Hash_Value_UInt32": "4043727690",
+      "Hash_Value_Int32": "-251239606",
+      "Offset": "948068",
+      "Type": "bool"
+    }
+  },
+  "-2046733348": {
+    "Quest_Name": "Tu Ka'loh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Tu Ka'loh",
+    "Subtitle": "Tu Ka'loh's Blessing",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 258,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon105",
+      "Hash_Value_UInt32": "2248233948",
+      "Hash_Value_Int32": "-2046733348",
+      "Offset": "535508",
+      "Type": "bool"
+    }
+  },
+  "520618598": {
+    "Quest_Name": "Maag Halan Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Maag Halan",
+    "Subtitle": "Maag Halan's Blessing",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 259,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon106",
+      "Hash_Value_UInt32": "520618598",
+      "Hash_Value_Int32": "520618598",
+      "Offset": "46692",
+      "Type": "bool"
+    }
+  },
+  "1745826544": {
+    "Quest_Name": "Misae Suma Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Misae Suma",
+    "Subtitle": "Misae Suma's Blessing",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 260,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon107",
+      "Hash_Value_UInt32": "1745826544",
+      "Hash_Value_Int32": "1745826544",
+      "Offset": "460732",
+      "Type": "bool"
+    }
+  },
+  "-122671263": {
+    "Quest_Name": "Ketoh Wawai Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ketoh Wawai",
+    "Subtitle": "Ketoh Wawai's Blessing",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 261,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon108",
+      "Hash_Value_UInt32": "4172296033",
+      "Hash_Value_Int32": "-122671263",
+      "Offset": "1015380",
+      "Type": "bool"
+    }
+  },
+  "-1883824137": {
+    "Quest_Name": "Ritaag Zumo Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ritaag Zumo",
+    "Subtitle": "Ritaag Zumo's Blessing",
+    "Region": "Akkala Region",
+    "Location": "",
+    "Order": 262,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon109",
+      "Hash_Value_UInt32": "2411143159",
+      "Hash_Value_Int32": "-1883824137",
+      "Offset": "550124",
+      "Type": "bool"
+    }
+  },
+  "-277834222": {
+    "Quest_Name": "Korsh O'hu Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Korsh O'hu",
+    "Subtitle": "Korsh O'hu's Blessing",
+    "Region": "Wasteland Region",
+    "Location": "",
+    "Order": 263,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon110",
+      "Hash_Value_UInt32": "4017133074",
+      "Hash_Value_Int32": "-277834222",
+      "Offset": "945828",
+      "Type": "bool"
+    }
+  },
+  "-1736989052": {
+    "Quest_Name": "Tawa Jinn Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Tawa Jinn",
+    "Subtitle": "Tawa Jinn's Blessing",
+    "Region": "Faron Region",
+    "Location": "",
+    "Order": 264,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon111",
+      "Hash_Value_UInt32": "2557978244",
+      "Hash_Value_Int32": "-1736989052",
+      "Offset": "564276",
+      "Type": "bool"
+    }
+  },
+  "25098046": {
+    "Quest_Name": "Lakna Rokee Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Lakna Rokee",
+    "Subtitle": "Lakna Rokee's Blessing",
+    "Region": "Dueling Peaks Region",
+    "Location": "",
+    "Order": 265,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon112",
+      "Hash_Value_UInt32": "25098046",
+      "Hash_Value_Int32": "25098046",
+      "Offset": "2852",
+      "Type": "bool"
+    }
+  },
+  "1987692456": {
+    "Quest_Name": "Shae Katha Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shae Katha",
+    "Subtitle": "Shae Katha's Blessing",
+    "Region": "Lake Region",
+    "Location": "",
+    "Order": 266,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon113",
+      "Hash_Value_UInt32": "1987692456",
+      "Hash_Value_Int32": "1987692456",
+      "Offset": "510964",
+      "Type": "bool"
+    }
+  },
+  "-400731637": {
+    "Quest_Name": "Shai Yota Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shai Yota",
+    "Subtitle": "Shai Yota's Blessing",
+    "Region": "Lanayru Region",
+    "Location": "",
+    "Order": 267,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon114",
+      "Hash_Value_UInt32": "3894235659",
+      "Hash_Value_Int32": "-400731637",
+      "Offset": "931060",
+      "Type": "bool"
+    }
+  },
+  "-1625660771": {
+    "Quest_Name": "Rona Kachta Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Rona Kachta",
+    "Subtitle": "Rona Kachta's Blessing",
+    "Region": "Woodland Region",
+    "Location": "",
+    "Order": 268,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon115",
+      "Hash_Value_UInt32": "2669306525",
+      "Hash_Value_Int32": "-1625660771",
+      "Offset": "794916",
+      "Type": "bool"
+    }
+  },
+  "101921575": {
+    "Quest_Name": "Qaza Tokki Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Qaza Tokki",
+    "Subtitle": "Qaza Tokki's Blessing",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 269,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon116",
+      "Hash_Value_UInt32": "101921575",
+      "Hash_Value_Int32": "101921575",
+      "Offset": "9148",
+      "Type": "bool"
+    }
+  },
+  "1897137073": {
+    "Quest_Name": "Jitan Sa'mi Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Jitan Sa'mi",
+    "Subtitle": "Jitan Sa'mi's Blessing",
+    "Region": "Hateno Region",
+    "Location": "",
+    "Order": 270,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon117",
+      "Hash_Value_UInt32": "1897137073",
+      "Hash_Value_Int32": "1897137073",
+      "Offset": "477068",
+      "Type": "bool"
+    }
+  },
+  "-508879328": {
+    "Quest_Name": "To Quomo Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "To Quomo",
+    "Subtitle": "To Quomo's Blessing",
+    "Region": "Hebra Region",
+    "Location": "",
+    "Order": 271,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon118",
+      "Hash_Value_UInt32": "3786087968",
+      "Hash_Value_Int32": "-508879328",
+      "Offset": "915892",
+      "Type": "bool"
+    }
+  },
+  "-1767100746": {
+    "Quest_Name": "Tahno O'ah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Tahno O'ah",
+    "Subtitle": "Tahno O'ah's Blessing",
+    "Region": "Hateno Region",
+    "Location": "",
+    "Order": 272,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon119",
+      "Hash_Value_UInt32": "2527866550",
+      "Hash_Value_Int32": "-1767100746",
+      "Offset": "561620",
+      "Type": "bool"
+    }
+  },
+  "-1000487471": {
+    "Quest_Name": "Yowaka Ita Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Yowaka Ita",
+    "Subtitle": "Collected Soul",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 273,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon120",
+      "Hash_Value_UInt32": "3294479825",
+      "Hash_Value_Int32": "-1000487471",
+      "Offset": "855100",
+      "Type": "bool"
+    }
+  },
+  "-1285884601": {
+    "Quest_Name": "Kihiro Moh Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kihiro Moh",
+    "Subtitle": "Inside the Box",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 274,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon121",
+      "Hash_Value_UInt32": "3009082695",
+      "Hash_Value_Int32": "-1285884601",
+      "Offset": "823236",
+      "Type": "bool"
+    }
+  },
+  "710124797": {
+    "Quest_Name": "Etsu Korima Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Etsu Korima",
+    "Subtitle": "Path of Light",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 275,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon122",
+      "Hash_Value_UInt32": "710124797",
+      "Hash_Value_Int32": "710124797",
+      "Offset": "69892",
+      "Type": "bool"
+    }
+  },
+  "1565824107": {
+    "Quest_Name": "Rohta Chigah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Rohta Chigah",
+    "Subtitle": "Stop to Start",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 276,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon123",
+      "Hash_Value_UInt32": "1565824107",
+      "Hash_Value_Int32": "1565824107",
+      "Offset": "391636",
+      "Type": "bool"
+    }
+  },
+  "-1020263992": {
+    "Quest_Name": "Sato Koda Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sato Koda",
+    "Subtitle": "Support and Guidance",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 277,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon124",
+      "Hash_Value_UInt32": "3274703304",
+      "Hash_Value_Int32": "-1020263992",
+      "Offset": "853516",
+      "Type": "bool"
+    }
+  },
+  "-1271451298": {
+    "Quest_Name": "Kee Dafunia Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kee Dafunia",
+    "Subtitle": "The Melting Point",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 278,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon125",
+      "Hash_Value_UInt32": "3023515998",
+      "Hash_Value_Int32": "-1271451298",
+      "Offset": "824348",
+      "Type": "bool"
+    }
+  },
+  "759062756": {
+    "Quest_Name": "Mah Eliya Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Mah Eliya",
+    "Subtitle": "Secret Stairway",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 279,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon126",
+      "Hash_Value_UInt32": "759062756",
+      "Hash_Value_Int32": "759062756",
+      "Offset": "73700",
+      "Type": "bool"
+    }
+  },
+  "1513705586": {
+    "Quest_Name": "Noe Rajee Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Noe Rajee",
+    "Subtitle": "The Four Winds",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 280,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon127",
+      "Hash_Value_UInt32": "1513705586",
+      "Hash_Value_Int32": "1513705586",
+      "Offset": "387468",
+      "Type": "bool"
+    }
+  },
+  "-897167901": {
+    "Quest_Name": "Kiah Toza Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kiah Toza",
+    "Subtitle": "Master the Orb",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 281,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon128",
+      "Hash_Value_UInt32": "3397799395",
+      "Hash_Value_Int32": "-897167901",
+      "Offset": "863604",
+      "Type": "bool"
+    }
+  },
+  "-1115587211": {
+    "Quest_Name": "Shira Gomar Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Shira Gomar",
+    "Subtitle": "Aim for Stillness",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 282,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon129",
+      "Hash_Value_UInt32": "3179380085",
+      "Hash_Value_Int32": "-1115587211",
+      "Offset": "844876",
+      "Type": "bool"
+    }
+  },
+  "-582552432": {
+    "Quest_Name": "Kamia Omuna Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Kamia Omuna",
+    "Subtitle": "Moving Targets",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 283,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon130",
+      "Hash_Value_UInt32": "3712414864",
+      "Hash_Value_Int32": "-582552432",
+      "Offset": "909516",
+      "Type": "bool"
+    }
+  },
+  "-1438530554": {
+    "Quest_Name": "Rinu Honika Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Rinu Honika",
+    "Subtitle": "Block the Blaze",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 284,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon131",
+      "Hash_Value_UInt32": "2856436742",
+      "Hash_Value_Int32": "-1438530554",
+      "Offset": "810460",
+      "Type": "bool"
+    }
+  },
+  "860394940": {
+    "Quest_Name": "Sharo Lun Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Sharo Lun",
+    "Subtitle": "Blind Spots",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 285,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon132",
+      "Hash_Value_UInt32": "860394940",
+      "Hash_Value_Int32": "860394940",
+      "Offset": "303932",
+      "Type": "bool"
+    }
+  },
+  "1146070314": {
+    "Quest_Name": "Keive Tala Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Keive Tala",
+    "Subtitle": "Big or Small",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 286,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon133",
+      "Hash_Value_UInt32": "1146070314",
+      "Hash_Value_Int32": "1146070314",
+      "Offset": "343052",
+      "Type": "bool"
+    }
+  },
+  "-634703735": {
+    "Quest_Name": "Takama Shiri Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Takama Shiri",
+    "Subtitle": "Dual Purpose",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 287,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon134",
+      "Hash_Value_UInt32": "3660263561",
+      "Hash_Value_Int32": "-634703735",
+      "Offset": "904268",
+      "Type": "bool"
+    }
+  },
+  "-1389625313": {
+    "Quest_Name": "Ruvo Korbah Shrine",
+    "Quest_Type": "Shrine",
+    "Master": "Ruvo Korbah",
+    "Subtitle": "A Major Test of Strength+",
+    "Region": "The Champions’ Ballad",
+    "Location": "",
+    "Order": 288,
+    "Properties": {
+      "Hash_Name": "Clear_Dungeon135",
+      "Hash_Value_UInt32": "2905341983",
+      "Hash_Value_Int32": "-1389625313",
+      "Offset": "814508",
+      "Type": "bool"
+    }
+  }
 }
